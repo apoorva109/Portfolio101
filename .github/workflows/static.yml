@@ -31,7 +31,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Project Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Compile Vite Production Bundles
         run: npm run build
